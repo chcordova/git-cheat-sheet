@@ -122,43 +122,74 @@
 
 > `$ git push --tags`
 
+## MERGE & REBASE
 
+### Merge \<branch> into your current HEAD
 
+> `$ git merge <branch>`
 
+### Rebase your current HEAD onto \<branch> (Don't rebase publish commits)
 
+> `$ git rebase <branch>`
 
+### Abort a rebase
 
+> `$ git rebase --abort`
 
+### Use your configured merge tool to solve conflicts
 
-### Display all branches
-> `$ git show-branch`
+> `$ git mergetool`
 
-### Display all branches
-> `$ git show-branch`
+### Use your editor to manually solve conflicts and (after resolving) mark file as resolved
 
-### Update repo from origin
-> `$ git pull`
+> `$ git add <resolved-file>`
+>
+> `$ git rm <resolved-file>`
 
-Checkout:
-* If you want to revert changes made to your working copy, do this: git checkout .
-* git checkout -b develop~# develop
-Clean / Reset:
-* git reset
-* git checkout .
-* git clean -fdx 
-Add:
-* git add -A “stages All”
-* git add . “stages new and modified, without deleted”
-* git add -u “stages modified and deleted, without new”
-Commit:
-* This command will add and commit all the modified files, but not newly created files: $ git commit -am  "<commit message>"
-* One-liner to stage ALL files (modified, deleted, and new) and commit with comment: $ git add --all && git commit -m "comment"
-Push:
-* git push origin develop
-Git Flow:
-* git checkout develop
-* git pull
-* git flow init
-* git flow feature start *feature_name*
-* git flow feature publish *feature_name*
-* git flow feature finish *feature_name*
+## UNDO
+
+### Discard all local changes in yout working directory
+
+> `$ git reset --hard HEAD`
+>
+> `$ git reset`
+>
+> `$ git checkout .`
+>
+> `$ git clean -fdx`
+>
+> `$ git checkout -b develop~# develop`
+
+### Discard local changes in a specific file
+
+> `$ git checkout HEAD <file>`
+
+### Revert a commit (by producing a new commit with contrary changes)
+
+> `$ git revert <commit>`
+
+### Reset your HEAD pointer to a previous commit and discard all changes since then, perserve all changes as unstaged changes and preserve uncommitted local changes
+
+> `$ git reset --hard <commit>`
+>
+> `$ git reset <commit>`
+>
+> `$ git reset --keep <commit>`
+
+## GIT FLOW
+
+### Init git flow
+
+> `$ git flow init`
+
+### Start git flow feature
+
+> `$ git flow feature start [feature-name]`
+
+### Publish git flow feature
+
+> `$ git flow feature publish [feature-name]`
+
+### Finish git flow feature
+
+> `$ git flow feature finish [feature-name]`
