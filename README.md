@@ -1,5 +1,11 @@
 # GIT CHEAT SHEET
 
+## HELP & DOCUMENTATION
+
+### Get help on the command line
+
+> `$ git help <command>`
+
 ## CREATE
 
 ### Clone an existing repository
