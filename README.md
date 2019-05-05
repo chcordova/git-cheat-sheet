@@ -199,3 +199,9 @@
 ### Finish git flow feature
 
 > `$ git flow feature finish [feature-name]`
+
+## Extra
+
+### Delete .git folder
+
+> `$ rm -rf .git`
