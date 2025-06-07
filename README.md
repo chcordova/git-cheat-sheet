@@ -6,19 +6,19 @@
 
 **Table of Contents:**
 
-* [❓ Help & Documentation](#help--documentation)
-* [🌱 Creation & Initialization](#creation--initialization)
-* [✍️ Local Changes](#local-changes)
-* [📜 Commit History](#commit-history)
-* [🌿 Branches & Tags](#branches--tags)
-* [🔄 Updating & Publishing (Remotes)](#updating--publishing-remotes)
-* [🤝 Merging & Rebasing](#merging--rebasing)
-* [↩️ Undoing Changes](#undoing-changes)
-* [🌊 Branching Strategies: Advice](#branching-strategies-advice)
-    * [🌳 Trunk-Based Development (TBD)](#trunk-based-development-tbd)
-    * [🌊 Gitflow](#gitflow)
-    * [💡 Other Strategies (Brief Mention)](#other-strategies-brief-mention)
-* [❌ Extras (Use With Caution!)](#extras-use-with-caution)
+* [❓ Help & Documentation](#-help--documentation)
+* [🌱 Creation & Initialization](#-creation--initialization)
+* [✍️ Local Changes](#%EF%B8%8F-local-changes)
+* [📜 Commit History](#-commit-history)
+* [🌿 Branches & Tags](#-branches--tags)
+* [🔄 Updating & Publishing (Remotes)](#-updating--publishing-remotes)
+* [🤝 Merging & Rebasing](#-merging--rebasing)
+* [↩️ Undoing Changes](#%EF%B8%8F-undoing-changes)
+* [🌊 Branching Strategies: Advice](#-branching-strategies-advice)
+    * [🌳 Trunk-Based Development (TBD)](#-trunk-based-development-tbd)
+    * [🌊 Gitflow](#-gitflow)
+    * [💡 Other Strategies (Brief Mention)](#-other-strategies-brief-mention)
+* [❌ Extras (Use With Caution!)](#-extras-use-with-caution)
 
 ---
 
